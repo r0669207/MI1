@@ -4,7 +4,7 @@ Dit is het repository van Hélias Brénéol
         <h2> Opgesteld op: 10/10/2016 </h2>
 <h1> VERSLAG WEEK 1,2,3,4 PROJECT (WEBSITE MAKEN VOOR EEN KLANT) </h1>
         
-        <p> Ik ben opzoek geweest naar bedrijven die in website wilden hebben.
+        Ik ben opzoek geweest naar bedrijven die in website wilden hebben.
 Ik ben terecht gekomen bij een Snack/frituur Sofra in Sint-Pieters-Leeuw die geïnteresseerd was om een website te hebben.
 Ze zijn redelijk beschikbaar om mij te antwoorden op mijn vragen in verband met het project.
 </p>
