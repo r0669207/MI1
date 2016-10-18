@@ -1,7 +1,7 @@
 # MI1
 Dit is het repository van Hélias Brénéol
 
-        <h2> Opgesteld op: 10/10/2016 </h2>
+        Opgesteld op: 10/10/2016
 <h1> VERSLAG WEEK 1,2,3,4 PROJECT (WEBSITE MAKEN VOOR EEN KLANT) </h1>
         
         Ik ben opzoek geweest naar bedrijven die in website wilden hebben.
