@@ -41,3 +41,95 @@ Als je een project in de realiteit wilt afwerken, dan is het altijd goed dat je 
 Mijn klant is op de hoogte van wanneer die website klaar moet zijn (dus december 2016)<br><br>
 
 </p>
+
+<h1> VERSLAG WEEK 5 PROJECT (OPDRACHTEN EN KLANTEN INFORMATIE) </h1>
+
+<p> Deze week heb ik me gefocust op de oefeningen dat we in de klas hebben begonnen en ik heb ze verder afgewerkt. </p> <br>
+<p> Voor deze week heb ik foto's genomen bij mijn klant en hij gaaf mij ook enkele informatie voor tekst. Alles werd bewaard in aparte dossier.
+
+<div class=kader>       
+        <h1> OPENINGSTIJDEN EERSTE OPDRACHT</h1>
+    <table>
+        
+        <tr>
+        <th>Dag van de week</th>
+        <th>Overdag</th>
+        <th>'s Avonds</th>
+        </tr>
+    
+    
+        <tr>
+        <td>Maandag-Vrijdag</td>
+        <td>9.00-18.00</td>
+        <td>19.00-22.00</td>
+        </tr>
+        
+        <tr>
+        <td>Zaterdag</td>
+        <td>9.00-17.00</td>
+        <td rowspan= "2"> Gesloten </td>
+        </tr>
+            
+        <tr>
+        <td>Zondag</td>
+        <td>10.00-17.00</td>  
+        </tr>
+    
+    
+    </table>
+</div>
+<br>
+<div class=kader>  
+        <h1>Persoonlijk voorkeuren</h1>
+            <br>
+        <form action="mailto:helias.breneol@student.odisee.be"
+        method="post">
+              
+            <fieldset id=persoon>
+            <legend> Mijn voorkeuren</legend>
+                <label for="id_kleur"> Lievelingskleur </label>
+                <input id=naam maxlength=100 name=kleur size=30 type=text placeholder="kleur">
+                <br>
+                <label> Favoriete seizoen </label>
+                <input id="id_lente" name="seizoen" type=radio> lente
+                <input id="id_zomer" name="seizoen" type=radio> zomer
+                <input id="id_herfst" name="seizoen" type=radio> herfst
+                <input id="id_winter" name="seizoen" type=radio> winter
+                <br>
+        <label for="id_fmaand"> Favoriete maand van het jaar   </label>
+            <select id="id_favorietmaand" name="favorietmaand">
+                    <br>                                
+                <option disabled>MAAND</option>
+                <option value="januari">januari</option>
+                <option value="februari">februari</option>
+                <option value="maart">maart</option>
+                <option value="april">april</option>
+                <option value="mei">mei</option>
+                <option value="juni">juni</option>
+                <option value="july">july</option>
+                <option value="augustus">augustus</option>
+                <option value="september">september</option>
+                <option value="oktober">oktober</option>
+                <option value="november">november</option>
+                <option value="december">december</option>
+                    </select>
+                <br>
+                <label>Ik vind me zelf </label>
+                <input id="id_vriendelijk" name="mezelf" type=checkbox> vriendelijk
+                <input id="id_sportief" name="mezelf" type=checkbox> sportief
+                <input id="id_energiek" name="mezelf" type=checkbox> energiek
+                <input id="id_leergierig" name="mezelf" type=checkbox> leergierig
+                <br>
+                <label for="id_avondvrij">  Als ik een avond vrij heb, dan ... </label>
+                <br>
+                <textarea cols="100" rows="5"> Ga ik ...  </textarea>
+                </fieldset>
+                <fieldset>
+                <legend> Formulier ingevuld </legend>
+                <input id="zend" type="submit" value="Formulier verzenden" />
+                </fieldset>
+              </form>
+</div>
+<h2>Relectie: alles is goed verlopen behalve dat ik mijn formulier niet op github kan zetten </h2>
+  
+	
