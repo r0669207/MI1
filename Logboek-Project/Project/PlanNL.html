@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="beschrijving van de webpagina">
+    <meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+    <meta name="viewport" content="width=device-width, height=device-height" />
+    <link rel="stylesheet" href="Sofrastyle.css" />
+    <title>Sofra</title>
+</head>
+
+<body>
+    <aside id="asi"> <a href="Plan.html" alt="naar Frans">FR</a> <a href="PlanNL.html" alt="naar Nederlands">NL</a> </aside>
+    <header id="banner">
+        <h1> SOFRA
+            <br> SNACK FRITUUR </h1> </header>
+    <nav>
+        <ul id="nav">
+            <li><a href="Welkom.html">Welkom</a> </li>
+            <li><a href="MenuNL.html">Menu's</a> </li>
+            <li><a href="Foto's.html">Foto's</a> </li>
+            <li><a href="Over-ons.html">Over ons</a> </li>
+            <li><a href="PlanNL.html">Plan</a></li>
+            <li><a href="ContactNL.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Plan</h1>
+    <section class="houdin">
+        <p>Hier vindt u een plan dat aantoont waar Sofra gelegen is, met de openingsuren er onder geschreven. </p>
+    </section>
+    <section class="map">
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                var uluru = {
+                    lat: 50.8077878
+                    , lng: 4.289020599999958
+                };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 17
+                    , center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru
+                    , map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+        </script>
+    </section>
+    <h1>Openingsuren</h1>
+    <section class="houdin">
+        <ul>
+            <li> Maandag van 10u tot 22u35 </li>
+            <li> Dinsdag gesloten </li>
+            <li> Woensdag van 10u tot 22u35 </li>
+            <li> Donderdag van 10u tot 22u35 </li>
+            <li> Vrijdag van 10u tot 22u35 </li>
+            <li> Zaterdag van 10u tot 22u35 </li>
+            <li> Zondag van 12u tot 22u35 </li>
+        </ul>
+    </section>
+    <footer class="specialfooter">
+        <p>Adres: Snack Sofra - Félix Wittouckstraat 1, 1600 Sint-Pieters-Leeuw, België</p>
+    </footer>
+</body>
+
+</html>
