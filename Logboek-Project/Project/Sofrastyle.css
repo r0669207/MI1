@@ -338,21 +338,24 @@ Ul{
     {
         font-size: 1em;
         width: 85px;
-        vertical-align: middle;
+        margin: auto;
         height: 25px;
         margin-top: 5px;
+        
     }
-    
+
     #nav li a
     {
         vertical-align: sub;
         
     }
     
+    
     section.sectioncenter table
     
     {
         width:auto;
+        
         
 
     }
@@ -361,8 +364,14 @@ Ul{
     
     {
         width:auto;
-        font-size: 80%;
+        font-size: auto;
 
+    }
+    
+    section.sectioncenter table th
+    {
+        width: auto;
+        font-size: 130%;
     }
     
     #asi a
