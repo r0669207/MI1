@@ -2,7 +2,6 @@ body {
     font-family: verdana, serif;
     background-image: url("IMG/yellow-orange-background.jpg");
     margin: auto;
-    
 }
 
 .houdin {
@@ -18,11 +17,9 @@ body {
     text-shadow: 2px 2px #000000;
 }
 
-section{
+section {
     margin: auto;
     text-align: center;
-    
-    
 }
 
 .houdin img {
@@ -54,9 +51,6 @@ section{
     font-size: 200%;
     color: white;
 }
-
-
-
 
 p {
     text-align: left;
@@ -127,7 +121,6 @@ h1 {
     margin: auto;
     margin-top: 1em;
     text-align: center;
-    
 }
 
 #nav li {
@@ -144,7 +137,6 @@ h1 {
     border-width: 5px;
     text-shadow: 2px 2px #000000;
     box-shadow: 2px 2px 30px red;
-    
 }
 
 #nav a:link {
@@ -163,13 +155,11 @@ h1 {
 #asi {
     text-align: right;
     float: right;
-
     vertical-align: top;
     margin: 5px;
     color: black;
     font-size: 20px
 }
-
 
 #asi a:visited {
     color: black
@@ -178,6 +168,7 @@ h1 {
 #asi a:hover {
     color: red;
 }
+
 img {
     display: block;
     margin-left: auto;
@@ -264,7 +255,8 @@ form p {
     color: white;
     box-shadow: 2px 2px 30px red;
 }
-Ul{
+
+Ul {
     text-align: left;
 }
 
@@ -277,162 +269,98 @@ Ul{
     border: 5px solid black;
     color: white;
     box-shadow: 2px 2px 30px red;
-    
 }
 
-.language img{
+.language img {
     border: 5px solid white;
     margin: 1em;
     margin-top: 2em;
     margin-bottom: 2em;
     display: inline-block;
-    
 }
-@media all and (max-width: 760px)
-{
-    body
-    {
+
+@media all and (max-width: 760px) {
+    body {
         width: auto;
     }
-    
-#banner
-    {
+    #banner {
         width: auto;
     }
-        
-    section.houdin
-    {
-        width: auto;
-        
-    }
-    
-    section.map
-    {
+    section.houdin {
         width: auto;
     }
-    
-    #nav
-    {
-     width: auto;
-     vertical-align: middle;
-        
+    section.map {
+        width: auto;
     }
-    
-    section.houdin p 
-    
-    {
+    #nav {
+        width: auto;
+        vertical-align: middle;
+    }
+    section.houdin p {
         font-size: 1em;
     }
-    
-    section.houdin img
-    {
+    section.houdin img {
         width: 70%;
     }
-    
-    h1
-    {
+    h1 {
         font-size: 150%;
     }
-    
-    #nav li 
-    {
+    #nav li {
         font-size: 1em;
         width: 85px;
         margin: auto;
         height: 25px;
         margin-top: 5px;
-        
     }
-
-    #nav li a
-    {
+    #nav li a {
         vertical-align: sub;
-        
     }
-    
-    
-    section.sectioncenter table
-    
-    {
-        width:auto;
-        
-        
-
+    section.sectioncenter table {
+        width: auto;
     }
-    
-    section.sectioncenter table td
-    
-    {
-        width:auto;
+    section.sectioncenter table td {
+        width: auto;
         font-size: auto;
-
     }
-    
-    section.sectioncenter table th
-    {
+    section.sectioncenter table th {
         width: auto;
         font-size: 130%;
     }
-    
-    #asi a
-    {
+    #asi a {
         color: white;
     }
-    
-    #asi a:visited 
-    {
+    #asi a:visited {
         color: white;
     }
-    
-
-    footer.specialfooter
-    {
+    footer.specialfooter {
         width: auto;
     }
-    
-    form
-    {
+    form {
         width: auto;
     }
-    
-    form textarea
-    {
+    form textarea {
         width: 250px;
     }
-    
-    form input
-    {
+    form input {
         width: 60%;
     }
-    
-    div.houdin
-    
-    {
+    div.houdin {
         width: auto;
     }
-    
-    div.houdin img
-    {
+    div.houdin img {
         width: 80%;
     }
-    
-        div.button
-    {
+    div.button {
         width: auto;
     }
-    
-    button.button2
-    {
+    button.button2 {
         margin-left: auto;
         margin-right: auto;
     }
-    section.language{
+    section.language {
         width: auto;
-        
     }
-    
-    section.language img
-    {
+    section.language img {
         width: 200px;
     }
 }
